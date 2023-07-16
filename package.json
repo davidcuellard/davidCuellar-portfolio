@@ -11,8 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^7.0.0",
-    "nodemon": "^2.0.15"
+    "node-sass": "^9.0.0",
+    "nodemon": "^2.0.22"
   },
   "dependencies": {
     "abbrev": "^1.1.1",
@@ -214,6 +214,7 @@
     "rimraf": "^3.0.2",
     "safe-buffer": "^5.2.1",
     "safer-buffer": "^2.1.2",
+    "sass": "^1.63.6",
     "sass-graph": "^2.2.5",
     "scss-tokenizer": "^0.2.3",
     "semver": "^7.3.5",

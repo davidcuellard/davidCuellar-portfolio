@@ -1,6 +1,9 @@
 * {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   box-sizing: border-box; }
+
+html {
+  background-color: black; }
 
 .bodyContainer {
   overflow-x: hidden; }
@@ -145,8 +148,8 @@ header {
       #bio .bio_left .skills .css:hover {
         background-image: url("../images/star5.png");
         cursor: pointer; }
-      #bio .bio_left .skills .canva {
-        background-image: url("../images/canva.png");
+      #bio .bio_left .skills .react {
+        background-image: url("../images/react.png");
         background-color: white;
         background-position: center center;
         background-repeat: no-repeat;
@@ -155,7 +158,33 @@ header {
         width: 100px;
         height: 100px;
         margin: 10px; }
-      #bio .bio_left .skills .canva:hover {
+      #bio .bio_left .skills .react:hover {
+        background-image: url("../images/star5.png");
+        cursor: pointer; }
+      #bio .bio_left .skills .node {
+        background-image: url("../images/node.png");
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 20px;
+        width: 100px;
+        height: 100px;
+        margin: 10px; }
+      #bio .bio_left .skills .node:hover {
+        background-image: url("../images/star5.png");
+        cursor: pointer; }
+      #bio .bio_left .skills .solidity {
+        background-image: url("../images/solidity.png");
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 20px;
+        width: 100px;
+        height: 100px;
+        margin: 10px; }
+      #bio .bio_left .skills .solidity:hover {
         background-image: url("../images/star5.png");
         cursor: pointer; }
       #bio .bio_left .skills .js {
@@ -182,7 +211,7 @@ header {
         height: 100px;
         margin: 10px; }
       #bio .bio_left .skills .python:hover {
-        background-image: url("../images/star4.png");
+        background-image: url("../images/star5.png");
         cursor: pointer; }
       #bio .bio_left .skills .slack {
         background-image: url("../images/slack.png");
@@ -225,11 +254,11 @@ header {
         cursor: pointer; }
   #bio .photo_bio {
     width: 50%;
-    background-image: url("../images/photo_bio.png");
+    background-image: url("../images/photo_bio2.png");
     background-position: relative;
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 80vh;
+    width: 60vh;
     height: 80vh;
     z-index: 1000;
     align-self: flex-end; }
@@ -269,7 +298,17 @@ header {
           width: 60px;
           margin: 5px;
           border-radius: 10px; }
-        #bio .bio_left .skills .canva {
+        #bio .bio_left .skills .react {
+          height: 60px;
+          width: 60px;
+          margin: 5px;
+          border-radius: 10px; }
+        #bio .bio_left .skills .node {
+          height: 60px;
+          width: 60px;
+          margin: 5px;
+          border-radius: 10px; }
+        #bio .bio_left .skills .solidity {
           height: 60px;
           width: 60px;
           margin: 5px;
@@ -338,7 +377,17 @@ header {
           width: 100px;
           margin: 5px;
           border-radius: 10px; }
-        #bio .bio_left .skills .canva {
+        #bio .bio_left .skills .react {
+          height: 100px;
+          width: 100px;
+          margin: 5px;
+          border-radius: 10px; }
+        #bio .bio_left .skills .node {
+          height: 100px;
+          width: 100px;
+          margin: 5px;
+          border-radius: 10px; }
+        #bio .bio_left .skills .solidity {
           height: 100px;
           width: 100px;
           margin: 5px;
@@ -396,7 +445,9 @@ header {
     margin: 2% 15% 2% 10%;
     border-radius: 20px; }
   #portfolio a {
-    align-self: center; }
+    display: flex;
+    align-self: center;
+    justify-content: center; }
     #portfolio a .mdpi {
       background-image: url("../images/mdpi.png");
       background-color: white;
@@ -407,6 +458,19 @@ header {
       width: 150px;
       height: 150px; }
     #portfolio a .mdpi:hover {
+      background-image: url("../images/click.gif");
+      width: 150px;
+      height: 150px; }
+    #portfolio a .arxiv {
+      background-image: url("../images/arxiv.png");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
+      width: 100px;
+      height: 150px; }
+    #portfolio a .arxiv:hover {
       background-image: url("../images/click.gif");
       width: 150px;
       height: 150px; }
@@ -559,6 +623,9 @@ header {
     #portfolio .card h6 {
       font-size: 13px; }
     #portfolio a .mdpi {
+      width: 90px;
+      height: 90px; }
+    #portfolio a .arxiv {
       width: 90px;
       height: 90px; }
     #portfolio .python {
