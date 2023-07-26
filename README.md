@@ -14,3 +14,6 @@ Web: https://davidcuellard-portfolio.netlify.app
 ### `npm run watch-css`
 
 Both manage the styles in the website
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
