@@ -101,7 +101,8 @@ header {
     #bio .bio_left h2 {
       margin: 10% 10% 10% 10%; }
     #bio .bio_left p {
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      background-color: rgba(0, 0, 0, 0.84); }
     #bio .bio_left .skills {
       padding: 0px 20px;
       display: flex;
@@ -198,7 +199,7 @@ header {
         height: 100px;
         margin: 10px; }
       #bio .bio_left .skills .js:hover {
-        background-image: url("../images/star4.png");
+        background-image: url("../images/star5.png");
         cursor: pointer; }
       #bio .bio_left .skills .python {
         background-image: url("../images/python.png");
@@ -323,6 +324,11 @@ header {
           width: 60px;
           margin: 5px;
           border-radius: 10px; }
+        #bio .bio_left .skills .blockchain {
+          height: 60px;
+          width: 60px;
+          margin: 5px;
+          border-radius: 10px; }
         #bio .bio_left .skills .slack {
           height: 60px;
           width: 60px;
@@ -402,6 +408,11 @@ header {
           width: 100px;
           margin: 5px;
           border-radius: 10px; }
+        #bio .bio_left .skills .blockchain {
+          height: 100px;
+          width: 100px;
+          margin: 5px;
+          border-radius: 10px; }
         #bio .bio_left .skills .slack {
           height: 100px;
           width: 100px;
@@ -432,6 +443,8 @@ header {
   z-index: 1; }
   #portfolio h2 {
     align-self: flex-start;
+    margin: 10% 10% 0% 10%; }
+  #portfolio h5 {
     margin: 10% 10% 0% 10%; }
   #portfolio .card {
     display: flex;
@@ -571,6 +584,39 @@ header {
       color: #000;
       text-decoration: none;
       cursor: pointer; }
+  #portfolio .blockchain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between; }
+    #portfolio .blockchain h5 {
+      margin: 10px 10px 0px 10px; }
+    #portfolio .blockchain .card_images {
+      margin: 10px;
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    #portfolio .blockchain .ethland {
+      background-image: url("../images/ethland.png");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px; }
+    #portfolio .blockchain .ethland:hover {
+      background-image: url("../images/click.gif"); }
+    #portfolio .blockchain .DSM {
+      background-image: url("../images/dsm.jpeg");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px; }
   #portfolio .websites {
     display: flex;
     flex-direction: row;
