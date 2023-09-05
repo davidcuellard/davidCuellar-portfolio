@@ -99,7 +99,7 @@ header {
     height: 300px;
   }
 
-  h2{
+  h2 {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
   }
@@ -137,7 +137,7 @@ header {
     margin: 10px 25px 10px 100px;
     width: 50%;
     h2 {
-      margin: 10% 10% 10% 10%;
+      margin: 10% 10% 2% 10%;
     }
 
     p {
@@ -160,8 +160,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px;
       }
 
@@ -177,8 +177,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px;
       }
 
@@ -194,8 +194,8 @@ header {
         background-repeat: no-repeat;
         background-size: 60%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px;
       }
 
@@ -211,8 +211,8 @@ header {
         background-repeat: no-repeat;
         background-size: 100%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px;
       }
 
@@ -228,8 +228,8 @@ header {
         background-repeat: no-repeat;
         background-size: 100%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px;
       }
 
@@ -245,12 +245,63 @@ header {
         background-repeat: no-repeat;
         background-size: 100%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px;
       }
 
       .solidity:hover {
+        background-image: url("../images/star5.png");
+        cursor: pointer;
+      }
+
+      .sql {
+        background-image: url("../images/sql.png");
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 20px;
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+      }
+
+      .sql:hover {
+        background-image: url("../images/star5.png");
+        cursor: pointer;
+      }
+
+      .mongodb {
+        background-image: url("../images/mongodb.png");
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 20px;
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+      }
+
+      .mongodb:hover {
+        background-image: url("../images/star5.png");
+        cursor: pointer;
+      }
+
+      .docker {
+        background-image: url("../images/docker.png");
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 20px;
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+      }
+
+      .docker:hover {
         background-image: url("../images/star5.png");
         cursor: pointer;
       }
@@ -262,8 +313,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px;
       }
 
@@ -279,8 +330,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px;
       }
 
@@ -296,8 +347,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px;
       }
 
@@ -313,8 +364,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px;
       }
 
@@ -330,8 +381,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px;
       }
 
@@ -419,6 +470,27 @@ header {
         }
 
         .solidity {
+          height: 60px;
+          width: 60px;
+          margin: 5px;
+          border-radius: 10px;
+        }
+
+        .sql {
+          height: 60px;
+          width: 60px;
+          margin: 5px;
+          border-radius: 10px;
+        }
+
+        .mongodb {
+          height: 60px;
+          width: 60px;
+          margin: 5px;
+          border-radius: 10px;
+        }
+
+        .docker {
           height: 60px;
           width: 60px;
           margin: 5px;
@@ -547,6 +619,27 @@ header {
           border-radius: 10px;
         }
 
+        .sql {
+          height: 100px;
+          width: 100px;
+          margin: 5px;
+          border-radius: 10px;
+        }
+
+        .mongodb {
+          height: 100px;
+          width: 100px;
+          margin: 5px;
+          border-radius: 10px;
+        }
+
+        .docker {
+          height: 100px;
+          width: 100px;
+          margin: 5px;
+          border-radius: 10px;
+        }
+
         .js {
           height: 100px;
           width: 100px;
@@ -650,6 +743,12 @@ header {
       height: 150px;
     }
 
+    .temp {
+      background-color: white;
+      width: 150px;
+      height: 150px;
+    }
+
     .arxiv {
       background-image: url("../images/arxiv.png");
       background-color: white;
@@ -660,8 +759,20 @@ header {
       width: 100px;
       height: 150px;
     }
+
     .arxiv:hover {
       background-image: url("../images/click.gif");
+      width: 150px;
+      height: 150px;
+    }
+
+    .DSM {
+      background-image: url("../images/dsm.jpeg");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
       width: 150px;
       height: 150px;
     }
@@ -678,6 +789,32 @@ header {
       display: flex;
       flex-direction: column;
       align-items: center;
+      max-width: 180px;
+    }
+
+    .yolop {
+      background-image: url("../images/YOLOP.png");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px;
+    }
+    .yolop:hover {
+      background-image: url("../images/click.gif");
+    }
+
+    .dijk {
+      background-image: url("../images/dsm.jpeg");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px;
     }
 
     .xrite {
@@ -813,8 +950,8 @@ header {
       background-image: url("../images/click.gif");
     }
 
-    .DSM {
-      background-image: url("../images/dsm.jpeg");
+    .evoting {
+      background-image: url("../images/e-voting.png");
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
@@ -832,7 +969,7 @@ header {
     align-content: space-between;
 
     .virtualEvent {
-      background-image: url("../images/virtualEvent.png");
+      background-image: url("../images/virtualEvent.gif");
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
@@ -846,7 +983,7 @@ header {
       background-image: url("../images/click.gif");
     }
     .jsecommerce {
-      background-image: url("../images/jsecommerce.png");
+      background-image: url("../images/js-ecommerce.gif");
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
@@ -860,7 +997,7 @@ header {
       background-image: url("../images/click.gif");
     }
     .reactecommerce {
-      background-image: url("../images/reactecommerce.png");
+      background-image: url("../images/reactjs-ecommerce.gif");
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
@@ -871,6 +1008,21 @@ header {
       margin: 20px;
     }
     .reactecommerce:hover {
+      background-image: url("../images/click.gif");
+    }
+
+    .django {
+      background-image: url("../images/django.gif");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px;
+      margin: 20px;
+    }
+    .django:hover {
       background-image: url("../images/click.gif");
     }
   }
@@ -902,11 +1054,37 @@ header {
         width: 90px;
         height: 90px;
       }
+      .DSM {
+        width: 90px;
+        height: 90px;
+      }
+    }
+
+    .blockchain {
+      .ethland {
+        width: 90px;
+        height: 90px;
+      }
+      .evoting {
+        width: 90px;
+        height: 90px;
+      }
     }
 
     .python {
       justify-content: flex-start;
       overflow-x: scroll;
+
+      .yolop {
+        width: 90px;
+        height: 90px;
+      }
+
+      .dijk {
+        width: 90px;
+        height: 90px;
+      }
+
       .xrite {
         width: 90px;
         height: 90px;

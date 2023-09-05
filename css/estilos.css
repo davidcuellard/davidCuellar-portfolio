@@ -102,7 +102,7 @@ header {
     margin: 10px 25px 10px 100px;
     width: 50%; }
     #bio .bio_left h2 {
-      margin: 10% 10% 10% 10%; }
+      margin: 10% 10% 2% 10%; }
     #bio .bio_left p {
       margin-bottom: 30px;
       background-color: rgba(0, 0, 0, 0.84); }
@@ -120,8 +120,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px; }
       #bio .bio_left .skills .html:hover {
         background-image: url("../images/star5.png");
@@ -133,8 +133,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px; }
       #bio .bio_left .skills .arduino:hover {
         background-image: url("../images/star5.png");
@@ -146,8 +146,8 @@ header {
         background-repeat: no-repeat;
         background-size: 60%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px; }
       #bio .bio_left .skills .css:hover {
         background-image: url("../images/star5.png");
@@ -159,8 +159,8 @@ header {
         background-repeat: no-repeat;
         background-size: 100%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px; }
       #bio .bio_left .skills .react:hover {
         background-image: url("../images/star5.png");
@@ -172,8 +172,8 @@ header {
         background-repeat: no-repeat;
         background-size: 100%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px; }
       #bio .bio_left .skills .node:hover {
         background-image: url("../images/star5.png");
@@ -185,10 +185,49 @@ header {
         background-repeat: no-repeat;
         background-size: 100%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px; }
       #bio .bio_left .skills .solidity:hover {
+        background-image: url("../images/star5.png");
+        cursor: pointer; }
+      #bio .bio_left .skills .sql {
+        background-image: url("../images/sql.png");
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 20px;
+        width: 70px;
+        height: 70px;
+        margin: 10px; }
+      #bio .bio_left .skills .sql:hover {
+        background-image: url("../images/star5.png");
+        cursor: pointer; }
+      #bio .bio_left .skills .mongodb {
+        background-image: url("../images/mongodb.png");
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 20px;
+        width: 70px;
+        height: 70px;
+        margin: 10px; }
+      #bio .bio_left .skills .mongodb:hover {
+        background-image: url("../images/star5.png");
+        cursor: pointer; }
+      #bio .bio_left .skills .docker {
+        background-image: url("../images/docker.png");
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 20px;
+        width: 70px;
+        height: 70px;
+        margin: 10px; }
+      #bio .bio_left .skills .docker:hover {
         background-image: url("../images/star5.png");
         cursor: pointer; }
       #bio .bio_left .skills .js {
@@ -198,8 +237,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px; }
       #bio .bio_left .skills .js:hover {
         background-image: url("../images/star5.png");
@@ -211,8 +250,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px; }
       #bio .bio_left .skills .python:hover {
         background-image: url("../images/star5.png");
@@ -224,8 +263,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px; }
       #bio .bio_left .skills .slack:hover {
         background-image: url("../images/star4.png");
@@ -237,8 +276,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px; }
       #bio .bio_left .skills .asana:hover {
         background-image: url("../images/star4.png");
@@ -250,8 +289,8 @@ header {
         background-repeat: no-repeat;
         background-size: 90%;
         border-radius: 20px;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
         margin: 10px; }
       #bio .bio_left .skills .ai:hover {
         background-image: url("../images/star3.png");
@@ -313,6 +352,21 @@ header {
           margin: 5px;
           border-radius: 10px; }
         #bio .bio_left .skills .solidity {
+          height: 60px;
+          width: 60px;
+          margin: 5px;
+          border-radius: 10px; }
+        #bio .bio_left .skills .sql {
+          height: 60px;
+          width: 60px;
+          margin: 5px;
+          border-radius: 10px; }
+        #bio .bio_left .skills .mongodb {
+          height: 60px;
+          width: 60px;
+          margin: 5px;
+          border-radius: 10px; }
+        #bio .bio_left .skills .docker {
           height: 60px;
           width: 60px;
           margin: 5px;
@@ -401,6 +455,21 @@ header {
           width: 100px;
           margin: 5px;
           border-radius: 10px; }
+        #bio .bio_left .skills .sql {
+          height: 100px;
+          width: 100px;
+          margin: 5px;
+          border-radius: 10px; }
+        #bio .bio_left .skills .mongodb {
+          height: 100px;
+          width: 100px;
+          margin: 5px;
+          border-radius: 10px; }
+        #bio .bio_left .skills .docker {
+          height: 100px;
+          width: 100px;
+          margin: 5px;
+          border-radius: 10px; }
         #bio .bio_left .skills .js {
           height: 100px;
           width: 100px;
@@ -477,6 +546,10 @@ header {
       background-image: url("../images/click.gif");
       width: 150px;
       height: 150px; }
+    #portfolio a .temp {
+      background-color: white;
+      width: 150px;
+      height: 150px; }
     #portfolio a .arxiv {
       background-image: url("../images/arxiv.png");
       background-color: white;
@@ -488,6 +561,15 @@ header {
       height: 150px; }
     #portfolio a .arxiv:hover {
       background-image: url("../images/click.gif");
+      width: 150px;
+      height: 150px; }
+    #portfolio a .DSM {
+      background-image: url("../images/dsm.jpeg");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
       width: 150px;
       height: 150px; }
   #portfolio .python {
@@ -502,7 +584,28 @@ header {
       margin: 10px;
       display: flex;
       flex-direction: column;
-      align-items: center; }
+      align-items: center;
+      max-width: 180px; }
+    #portfolio .python .yolop {
+      background-image: url("../images/YOLOP.png");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px; }
+    #portfolio .python .yolop:hover {
+      background-image: url("../images/click.gif"); }
+    #portfolio .python .dijk {
+      background-image: url("../images/dsm.jpeg");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px; }
     #portfolio .python .xrite {
       background-image: url("../images/xrite.png");
       background-color: white;
@@ -611,8 +714,8 @@ header {
       height: 150px; }
     #portfolio .blockchain .ethland:hover {
       background-image: url("../images/click.gif"); }
-    #portfolio .blockchain .DSM {
-      background-image: url("../images/dsm.jpeg");
+    #portfolio .blockchain .evoting {
+      background-image: url("../images/e-voting.png");
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
@@ -626,7 +729,7 @@ header {
     justify-content: center;
     align-content: space-between; }
     #portfolio .websites .virtualEvent {
-      background-image: url("../images/virtualEvent.png");
+      background-image: url("../images/virtualEvent.gif");
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
@@ -638,7 +741,7 @@ header {
     #portfolio .websites .virtualEvent:hover {
       background-image: url("../images/click.gif"); }
     #portfolio .websites .jsecommerce {
-      background-image: url("../images/jsecommerce.png");
+      background-image: url("../images/js-ecommerce.gif");
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
@@ -650,7 +753,7 @@ header {
     #portfolio .websites .jsecommerce:hover {
       background-image: url("../images/click.gif"); }
     #portfolio .websites .reactecommerce {
-      background-image: url("../images/reactecommerce.png");
+      background-image: url("../images/reactjs-ecommerce.gif");
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
@@ -660,6 +763,18 @@ header {
       height: 150px;
       margin: 20px; }
     #portfolio .websites .reactecommerce:hover {
+      background-image: url("../images/click.gif"); }
+    #portfolio .websites .django {
+      background-image: url("../images/django.gif");
+      background-color: white;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 20px;
+      width: 150px;
+      height: 150px;
+      margin: 20px; }
+    #portfolio .websites .django:hover {
       background-image: url("../images/click.gif"); }
 
 @media only screen and (max-width: 559px) {
@@ -677,9 +792,24 @@ header {
     #portfolio a .arxiv {
       width: 90px;
       height: 90px; }
+    #portfolio a .DSM {
+      width: 90px;
+      height: 90px; }
+    #portfolio .blockchain .ethland {
+      width: 90px;
+      height: 90px; }
+    #portfolio .blockchain .evoting {
+      width: 90px;
+      height: 90px; }
     #portfolio .python {
       justify-content: flex-start;
       overflow-x: scroll; }
+      #portfolio .python .yolop {
+        width: 90px;
+        height: 90px; }
+      #portfolio .python .dijk {
+        width: 90px;
+        height: 90px; }
       #portfolio .python .xrite {
         width: 90px;
         height: 90px; }
