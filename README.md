@@ -4,7 +4,7 @@ Portfolio
 
 Objective: Develop a web page using html and css with portfolio
 
-Web: https://davidcuellard-portfolio.netlify.app
+Web: https://davidcuellard.netlify.app
 
 # Gif
 
