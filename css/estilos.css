@@ -590,7 +590,7 @@ header {
       width: 150px;
       height: 150px; }
     #portfolio a .DSM {
-      background-image: url("../images/dsm.jpeg");
+      background-image: url("../images/ieee.png");
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
@@ -624,7 +624,7 @@ header {
     #portfolio .python .yolop:hover {
       background-image: url("../images/click.gif"); }
     #portfolio .python .dijk {
-      background-image: url("../images/dsm.jpeg");
+      background-image: url("../images/dijk.jpg");
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
