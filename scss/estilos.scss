@@ -411,7 +411,7 @@ header {
 
   .photo_bio {
     width: 50%;
-    background-image: url("../images/photo_bio2.png");
+    background-image: url("../images/photo_bio3.png");
     background-position: relative;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -419,6 +419,8 @@ header {
     height: 80vh;
     z-index: 1000;
     align-self: flex-end;
+    position: absolute;
+    right: 10px;
   }
 }
 

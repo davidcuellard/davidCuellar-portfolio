@@ -310,14 +310,16 @@ header {
         cursor: pointer; }
   #bio .photo_bio {
     width: 50%;
-    background-image: url("../images/photo_bio2.png");
+    background-image: url("../images/photo_bio3.png");
     background-position: relative;
     background-repeat: no-repeat;
     background-size: 100%;
     width: 60vh;
     height: 80vh;
     z-index: 1000;
-    align-self: flex-end; }
+    align-self: flex-end;
+    position: absolute;
+    right: 10px; }
 
 @media only screen and (max-width: 559px) {
   #bio {
