@@ -254,6 +254,22 @@ header {
         background-image: url("../images/star5.png");
         cursor: pointer;
       }
+      .rust {
+        background-image: url("../images/rust.png");
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 20px;
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+      }
+
+      .rust:hover {
+        background-image: url("../images/star5.png");
+        cursor: pointer;
+      }
 
       .sql {
         background-image: url("../images/sql.png");
@@ -476,6 +492,13 @@ header {
           border-radius: 10px;
         }
 
+        .rust {
+          height: 60px;
+          width: 60px;
+          margin: 5px;
+          border-radius: 10px;
+        }
+
         .sql {
           height: 60px;
           width: 60px;
@@ -619,6 +642,13 @@ header {
           border-radius: 10px;
         }
 
+        .rust {
+          height: 100px;
+          width: 100px;
+          margin: 5px;
+          border-radius: 10px;
+        }
+
         .sql {
           height: 100px;
           width: 100px;
@@ -708,6 +738,8 @@ header {
 
   h5 {
     margin: 10% 10% 0% 10%;
+
+    max-width: 300px;
   }
 
   .card {
@@ -750,13 +782,13 @@ header {
     }
 
     .arxiv {
-      background-image: url("../images/arxiv.png");
+      background-image: url("../images/arxiv.jpg");
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
       background-size: 100%;
       border-radius: 20px;
-      width: 100px;
+      width: 150px;
       height: 150px;
     }
 
@@ -966,7 +998,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: space-between;
+    align-content: flex-start;
 
     .virtualEvent {
       background-image: url("../images/virtualEvent.gif");

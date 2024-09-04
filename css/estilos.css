@@ -191,6 +191,19 @@ header {
       #bio .bio_left .skills .solidity:hover {
         background-image: url("../images/star5.png");
         cursor: pointer; }
+      #bio .bio_left .skills .rust {
+        background-image: url("../images/rust.png");
+        background-color: white;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 20px;
+        width: 70px;
+        height: 70px;
+        margin: 10px; }
+      #bio .bio_left .skills .rust:hover {
+        background-image: url("../images/star5.png");
+        cursor: pointer; }
       #bio .bio_left .skills .sql {
         background-image: url("../images/sql.png");
         background-color: white;
@@ -356,6 +369,11 @@ header {
           width: 60px;
           margin: 5px;
           border-radius: 10px; }
+        #bio .bio_left .skills .rust {
+          height: 60px;
+          width: 60px;
+          margin: 5px;
+          border-radius: 10px; }
         #bio .bio_left .skills .sql {
           height: 60px;
           width: 60px;
@@ -455,6 +473,11 @@ header {
           width: 100px;
           margin: 5px;
           border-radius: 10px; }
+        #bio .bio_left .skills .rust {
+          height: 100px;
+          width: 100px;
+          margin: 5px;
+          border-radius: 10px; }
         #bio .bio_left .skills .sql {
           height: 100px;
           width: 100px;
@@ -517,7 +540,8 @@ header {
     align-self: flex-start;
     margin: 10% 10% 0% 10%; }
   #portfolio h5 {
-    margin: 10% 10% 0% 10%; }
+    margin: 10% 10% 0% 10%;
+    max-width: 300px; }
   #portfolio .card {
     display: flex;
     flex-direction: column;
@@ -551,13 +575,13 @@ header {
       width: 150px;
       height: 150px; }
     #portfolio a .arxiv {
-      background-image: url("../images/arxiv.png");
+      background-image: url("../images/arxiv.jpg");
       background-color: white;
       background-position: center center;
       background-repeat: no-repeat;
       background-size: 100%;
       border-radius: 20px;
-      width: 100px;
+      width: 150px;
       height: 150px; }
     #portfolio a .arxiv:hover {
       background-image: url("../images/click.gif");
@@ -727,7 +751,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: space-between; }
+    align-content: flex-start; }
     #portfolio .websites .virtualEvent {
       background-image: url("../images/virtualEvent.gif");
       background-color: white;
